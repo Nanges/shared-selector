@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, EventEmitter, HostListener, Input, Output } from '@angular/core';
-import { idGenerator } from 'src/app/utils/id-generator';
+import { idGenerator } from '../../utils/id-generator';
 
 const idGen = idGenerator('act-file-upload');
 
