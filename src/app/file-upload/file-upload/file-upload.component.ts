@@ -28,7 +28,7 @@ export class FileUploadComponent {
      * Emit files on changes
      */
     @Output()
-    filesSelected = new EventEmitter<File[]>();
+    readonly filesSelected = new EventEmitter<File[]>();
 
     readonly id: string;
 
