@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+app-file-upload > label > em{
+    font-style: normal;
+}
+
+app-file-upload > input[type="file"]:focus-visible + label > em,
+app-file-upload > label:hover > em{
+    text-decoration: underline;
+}

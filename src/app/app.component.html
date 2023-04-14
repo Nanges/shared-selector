@@ -1,5 +1,5 @@
 <h1>File upload</h1>
-<app-file-upload (filesSelected)="files = $event"> Drag and drop file or&nbsp;<span class="link">pick one</span></app-file-upload>
+<app-file-upload (filesSelected)="files = $event">Drag and drop file or&nbsp;<em>pick one</em></app-file-upload>
 <ul>
     <li *ngFor="let file of files">{{ file | filename }}</li>
 </ul>

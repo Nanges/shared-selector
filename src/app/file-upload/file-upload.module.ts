@@ -3,11 +3,10 @@ import { NgModule } from '@angular/core';
 import { FileUploadDropCapabilityDirective } from './file-upload-drop-capability.directive';
 import { FileUploadComponent } from './file-upload/file-upload.component';
 import { FilenamePipe } from './filename.pipe';
-import { MakeInteractiveDirective } from './make-interactive.directive';
 
 @NgModule({
-    declarations: [FileUploadComponent, FileUploadDropCapabilityDirective, MakeInteractiveDirective, FilenamePipe],
+    declarations: [FileUploadComponent, FileUploadDropCapabilityDirective, FilenamePipe],
     imports: [CommonModule],
-    exports: [FileUploadComponent, FileUploadDropCapabilityDirective, MakeInteractiveDirective, FilenamePipe],
+    exports: [FileUploadComponent, FileUploadDropCapabilityDirective, FilenamePipe],
 })
 export class FileUploadModule {}
