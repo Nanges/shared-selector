@@ -18,7 +18,7 @@ export class FileUploadDropCapabilityDirective {
     constructor(private fileUploadCmpnt: FileUploadComponent) {}
 
     @HostListener('dragover', ['$event'])
-    onDragover(e: DragEvent) {
+    onDragOver(e: DragEvent) {
         e.preventDefault();
         this._dragover = true;
     }
